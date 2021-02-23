@@ -13,6 +13,7 @@ static void lept_parse_whitespace(lept_context* c) {
     while (*p == ' ' || *p == '\t' || *p == '\n' || *p == '\r')
         p++;
     c->json = p;
+int i=0;
 }
 
 static int lept_parse_null(lept_context* c, lept_value* v) {
